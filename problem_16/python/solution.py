@@ -62,7 +62,7 @@ print two_pow_any(int(sys.argv[1]))
 $ time ./solution.py 100000
 135178
 
-real	18m2.818s
-user	18m0.800s
-sys	0m0.472s
+real	5m11.188s
+user	5m10.832s
+sys	0m0.068s
 '''
