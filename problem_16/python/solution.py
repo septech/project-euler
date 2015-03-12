@@ -10,6 +10,7 @@ def int_to_array(number):
 def double_array_value(arr):
 	'''
 	double of array_values
+	Add 1 more parameter to make this become calculation of 2 arrays
 	'''
 	max_length = len(arr)
 	
@@ -29,7 +30,7 @@ def two_pow_any(exponent):
 	# The shop is closed! See you soon!
 	# print exponent
 	if exponent >= pow(10, 9) or exponent < 0:
-		print 'Crazy!!'
+		print 'Crazy!! I won\'t do that!'
 		return -1
 
 	# OK, but too easy!
