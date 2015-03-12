@@ -7,15 +7,6 @@ def int_to_array(number):
 	'''
 	return map(int, str(number))
 
-def get_element(arr, index):
-	'''
-	Get index-th element or default to 0
-	'''
-	try:
-		return arr[index]
-	except IndexError:
-		return 0
-
 def double_array_value(arr):
 	'''
 	double of array_values
